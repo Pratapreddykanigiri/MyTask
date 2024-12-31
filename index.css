@@ -1,0 +1,201 @@
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+
+}
+.container{
+    width:100%;
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+.container1{
+  
+    width:100%;
+    background-color: #140303;
+    display:flex;
+}
+.subcontainer1{
+    font-size: larger;
+    margin-left: 60x;
+}
+.image1{
+    height:150px;
+    width:140px;
+    padding:5px;
+    margin-right:100px;
+    border-radius:40px;
+    margin-left: 20px;
+
+}
+.heading1{
+    color:rgb(142, 191, 206);
+    font-size:large;
+    margin-left: 20px;
+
+}
+.navigation{
+    height:200px;
+    width:70%;
+    display:flex;
+    justify-content:flex-end;
+    /* padding:10px; */
+    color: white;
+    margin-right: 100px;
+    
+
+}
+.navbar{
+    display:flex;
+    gap:100px;
+    border-style: none;
+    font-size: larger;
+    font-weight:700;
+    padding:10px;
+    margin:20px;
+    color: white;
+    text-decoration: none;
+    list-style-type: none;
+    justify-content:flex-end;
+  
+}
+.navbar li a{
+    color: white;
+    text-decoration: none;
+}
+.btn1{
+    height:50px;
+    width:140px;
+    background-color: white;
+    border-radius: 10px;
+    position: relative;
+    justify-self: flex-end;
+    padding:5px;
+    margin-right:100px; 
+    margin-top: 20px;
+
+}
+.btn1:hover{
+    background-color:blue;
+}
+.navbar li :hover{
+    background-color: orange;
+
+}
+.container2{
+    display:flex;
+    flex-direction:column ;
+    gap:10px;
+    width:100%;
+    padding:30px;
+    background-color: rgb(149, 232, 238);
+
+}
+.heading2{
+    color:green;
+    align-self:first baseline;
+  
+  
+}
+.para{
+    font-size: large;
+    font-weight: 800;
+    color:black;
+}
+.heading2:hover{
+    color:orange;
+}
+.bold{
+    font-size: larger;
+    color: rgb(2, 2, 14);
+}
+.btn2{
+    height:30px;
+    width:100px;
+    background-color: rgb(161, 201, 19);
+    border-radius: 10px;
+    color: white;
+    animation-name: button;
+    animation-timing-function: calc();
+    animation-duration: 5s;
+    animation-delay: 2s;
+    animation-direction: normal;
+    animation-iteration-count: infinite;
+}
+@keyframes button{
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:300px; top:0px;}
+    50%  {background-color:blue; left:200px; top:200px;}
+    75%  {background-color:green; left:0px; top:200px;}
+    100% {background-color:red; left:0px; top:0px;}
+}
+.btn2:hover{
+    background-color:blue;
+}
+@keyframes forms{
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:200px; top:0px;}
+    50%  {background-color:blue; left:200px; top:200px;}
+    75%  {background-color:green; left:0px; top:200px;}
+    100% {background-color:red; left:0px; top:0px;}
+}
+.container3{
+    background-color: orange;
+    width:100%;
+    display: flex;
+    animation-name: forms;
+    animation-timing-function: calc();
+    animation-duration: 5s;
+    animation-delay: 2s;
+    animation-direction: normal;
+    animation-iteration-count: infinite;
+    /* width:100%; */
+    /* justify-content:space-around; */
+}
+    
+.form1{
+    gap:30px;
+    padding:30px;
+    font-size:xx-large;
+    margin: 100px;
+    height:100%;
+    
+}
+.btn3{
+    height:50px;
+    width:140px;
+    background-color: white;
+    border-radius: 10px;
+    position: relative;
+    justify-self: flex-end;
+    padding:5px; 
+    margin-top: 20px;
+    transition-property: width;
+    transition-duration: 2s;
+
+
+}
+.btn3:hover{
+    background-color: blue;
+    width:150px;
+}
+#name{
+    font-size: large;
+    border:2px,solid,green;
+    border-radius: 5px;
+    width:250px;
+}
+#email{
+    font-size: large;
+    border:2px,solid,#e21818;
+    border-radius: 5px;
+    width:250px;
+
+}
+#msg{
+    font-size: large;
+    border:2px,solid,#078cf8;
+    border-radius: 5px;
+    width:250px;
+}
